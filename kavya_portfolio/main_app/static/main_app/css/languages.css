@@ -1,0 +1,27 @@
+/* languages.css */
+.languages-section {
+    padding: 3rem;
+    background: #f9f9f9;
+    text-align: center;
+}
+.languages h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.languages {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.language-card {
+    background: white;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+.language-card:hover {
+    transform: scale(1.05);
+}

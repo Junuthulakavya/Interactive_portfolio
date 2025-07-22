@@ -1,0 +1,22 @@
+/* achievements.css */
+.achievements-section {
+    padding: 3rem;
+    background: #fdf6e3;
+    text-align: center;
+}
+.badges {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2rem;
+}
+.badges li {
+    margin: 1rem 0;
+    background: #fffbe6;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.badge {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+}

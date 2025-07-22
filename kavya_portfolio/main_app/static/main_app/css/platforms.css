@@ -1,0 +1,22 @@
+/* platforms.css */
+.platforms-section {
+    padding: 3rem;
+    background: #f4f6f8;
+    text-align: center;
+}
+.platform-links a {
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background: #fff;
+    color: #333;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: background 0.3s, transform 0.3s;
+}
+.platform-links a:hover {
+    background: #e0f2f1;
+    transform: translateY(-3px);
+}

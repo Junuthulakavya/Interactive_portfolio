@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'main_app/css/base.css' %}">
+
+    <title>About Me - Kavya</title>
+    <link rel="stylesheet" href="{% static 'main_app/css/about.css' %}">
+    <link rel="icon" href="{% static 'main_app/icons/favicon.png' %}" type="image/png">
+</head>
+<body>
+    <section class="about-section">
+        <div class="avatar-container">
+            <img src="{% static 'main_app/images/avatar.png' %}" alt="Kavya Avatar" class="avatar">
+        </div>
+
+        <div class="typewriter">
+            <h1 id="typewriter-text">Hi, I'm Kavya Junuthula</h1>
+        </div>
+
+        <p class="fade-in">Aspiring Python Developer, Data Analyst, and Full Stack Enthusiast. I love solving real-world problems with code.</p>
+
+        <blockquote class="quote">“Code is like humor. When you have to explain it, it’s bad.” – Cory House</blockquote>
+    </section>
+
+    <script src="{% static 'main_app/js/about.js' %}"></script>
+</body>
+</html>

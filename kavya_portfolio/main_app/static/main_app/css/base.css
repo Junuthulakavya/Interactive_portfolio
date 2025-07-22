@@ -1,0 +1,23 @@
+/* base.css */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #222;
+    background-color: #fdfdfd;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p, li {
+    font-size: 1.2rem;
+}

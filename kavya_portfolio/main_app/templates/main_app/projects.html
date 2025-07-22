@@ -1,0 +1,54 @@
+<!-- projects.html -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'main_app/css/base.css' %}">
+
+    <title>Projects - Kavya</title>
+    <link rel="stylesheet" href="{% static 'main_app/css/projects.css' %}">
+</head>
+<body>
+    <section class="projects-section">
+        <h1>My Projects</h1>
+        <div class="project-grid">
+            <div class="project-card" onclick="openModal('modal1')">
+                <h2>StatisticCrafting</h2>
+                <p>Data Cleaning Toolkit</p>
+            </div>
+            <div class="project-card" onclick="openModal('modal2')">
+                <h2>College Placement System</h2>
+                <p>PHP + MySQL Web App</p>
+            </div>
+            <div class="project-card" onclick="openModal('modal3')">
+                <h2>Python CLI Tools</h2>
+                <p>Task Tracker, File Renamer</p>
+            </div>
+        </div>
+    </section>
+
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            <h2>StatisticCrafting</h2>
+            <p>Advanced data cleaning toolkit using Pandas, NumPy, RegEx. Published at ISBM 2025, Bangkok.</p>
+        </div>
+    </div>
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2')">&times;</span>
+            <h2>College Placement System</h2>
+            <p>Web app with secure student login, placement stats, resume upload. PHP + MySQL.</p>
+        </div>
+    </div>
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal3')">&times;</span>
+            <h2>Python CLI Tools</h2>
+            <p>Argparse-powered CLI scripts for file renaming, SQLite task tracking, folder sorting, etc.</p>
+        </div>
+    </div>
+    <script src="{% static 'main_app/js/projects.js' %}"></script>
+</body>
+</html>

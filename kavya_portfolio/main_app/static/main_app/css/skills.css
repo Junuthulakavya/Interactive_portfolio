@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d0d;
+    color: #f2f2f2;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.skills-section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.skills-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #00ffe5;
+}
+
+.skills-category {
+    margin-bottom: 40px;
+}
+
+.skills-category h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #00bfff;
+}
+
+.skill {
+    margin-bottom: 12px;
+}
+
+.skill span {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.bar {
+    width: 0;
+    height: 16px;
+    background-color: #00ffe5;
+    border-radius: 20px;
+    transition: width 1.5s ease;
+}
+
+/* Example widths - you can customize */
+.python { width: 95%; background-color: #306998; }
+.java { width: 80%; background-color: #f89820; }
+.js { width: 75%; background-color: #f0db4f; }
+.php { width: 65%; background-color: #8993be; }
+.html { width: 90%; background-color: #e44d26; }
+.css { width: 85%; background-color: #264de4; }
+.django { width: 80%; background-color: #092e20; }
+.flask { width: 65%; background-color: #d1d1d1; }
+.mysql { width: 75%; background-color: #00758f; }
+.mongodb { width: 70%; background-color: #4db33d; }
+.pandas { width: 80%; background-color: #150458; }
+.numpy { width: 75%; background-color: #013243; }
+.sklearn { width: 70%; background-color: #f7931e; }
+.matplotlib { width: 65%; background-color: #11557c; }
+.seaborn { width: 60%; background-color: #4c72b0; }
+.oop { width: 85%; background-color: #9c27b0; }
+.dsa { width: 90%; background-color: #673ab7; }
+.stats { width: 70%; background-color: #455a64; }
+.rest { width: 80%; background-color: #607d8b; }
+.tkinter { width: 60%; background-color: #ff7043; }

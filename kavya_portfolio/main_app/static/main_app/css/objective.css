@@ -1,0 +1,16 @@
+/* objective.css */
+.objective-section {
+    padding: 3rem;
+    background: linear-gradient(to right, #f8fafc, #e0f7fa);
+    text-align: center;
+}
+.objective-text {
+    font-size: 1.3rem;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    animation: fadeIn 1s ease-in-out;
+}

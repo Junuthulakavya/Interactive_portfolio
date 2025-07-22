@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kavya Portfolio</title>
+    <link rel="stylesheet" href="{% static 'main_app/css/styles.css' %}">
+</head>
+<body>
+
+    <!-- Loader -->
+    <div class="loader" id="loader">Loading...</div>
+
+    <!-- Image Map Container -->
+    <div class="image-container">
+        <img src="{% static 'main_app/images/homepage.jpg' %}" usemap="#portfolio-map" alt="Interactive Portfolio" style="width: 100%; height: auto;">
+        
+        <map name="portfolio-map">
+            <area shape="rect" coords="100,350,250,450" href="{% url 'projects' %}" alt="Projects">
+            <area shape="rect" coords="260,350,310,400" href="{% url 'about' %}" alt="About Me">
+            <area shape="rect" coords="60,280,160,340" href="{% url 'skills' %}" alt="Skills">
+            <area shape="rect" coords="30,50,180,170" href="{% url 'achievements' %}" alt="Achievements">
+            <area shape="rect" coords="400,100,500,200" href="{% url 'certifications' %}" alt="Certifications">
+            <area shape="rect" coords="500,210,580,290" href="{% url 'education' %}" alt="Education">
+            <area shape="circle" coords="550,420,35" href="{% url 'contact' %}" alt="Contact">
+            <area shape="rect" coords="600,100,680,200" href="{% url 'languages' %}" alt="Languages">
+            <area shape="rect" coords="200,60,380,160" href="{% url 'platforms' %}" alt="Coding Platforms">
+            <area shape="rect" coords="420,350,600,420" href="{% url 'objective' %}" alt="Objective">
+        </map>
+    </div>
+
+    <!-- Sound -->
+    <audio id="click-sound" src="{% static 'main_app/audio/click.mp3' %}"></audio>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/image-map-resizer@1.0.10/js/imageMapResizer.min.js"></script>
+    <script src="{% static 'main_app/js/scripts.js' %}"></script>
+</body>
+</html>
